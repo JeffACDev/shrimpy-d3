@@ -1,0 +1,59 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica;
+  background: #ffffff;
+  color: #000000;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+svg {
+  text-align: center;
+}
+  
+text {
+  font-family: Helvetica;
+  font-size: 14px;
+  fill: #000;
+}
+
+text.title {
+  font-size: 22px;
+  fill: #000;
+}
+
+.subtitle text {
+  font-size: 12px;
+  text-decoration: underline;
+  fill: #000;
+}
+
+path.line {
+  fill: none;
+  stroke: blue;
+  stroke-width: 1px;
+}
+
+path.area {
+  fill: blue;
+  opacity: 0.2;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: slategray;
+  shape-rendering: crispEdges;
+}
+
+line.x,
+line.y,
+circle.y {
+  stroke: Aqua;
+}
