@@ -7,7 +7,7 @@
 <ul>
  <li>refine style, including adding subtle y grid dashed lines, etc.</li>
  <li>figure out how to have the data lines begin and end before and after the first and last data points</li>
- <li>setup promised data</li>
+ <li>setup promised data (I chose not to use d3.csv, because the provided data sample was basically, already Json. I could have formatted the JSON into csv and posted it to a remote location to grab as a promise.)</li>
  <li>make mouse move work for all lines</li>
  <li>move the chart into React (The example I demoed, durring the first interview, was a d3.js bar chart reusable component with a live API search in React)</li>
  <li>figure out what's going on with the y axis initial format, before the animation</li>
