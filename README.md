@@ -1,6 +1,7 @@
 # d3-line-chart
 ***This is an in-progress peek*** <br/>
-<p>The chart is setup to handle a non-specified number of lines. I could set the color designation to loop back around, if there were ever more lines than colors. I used a color picker to find the colors and wrote a color array to dynamically color each line as it is looped. Typically, if an API endpoint is not available to set up a microservice, I would run a Json server, to access the initial data from a local json file, like the file I included, but did not use, yet. </p>
+<p>The chart is setup to handle a non-specified number of lines. I could set the color designation to loop back around, if there were ever more lines than colors. I used a color picker to find the colors and wrote a color array to dynamically color each line as it is looped. Typically, if an API endpoint is not available to set up a microservice, I would run a Json server, to access the initial data from a local json file, like the file I included, but did not use, yet. This data is a hard-coded const. Often my first step for a rough-in.</p>
+<p>For interactivity, when you hover over data points, the info for the nearest focussed point should display. Currently, only the last line in the loop works, and I have that in my list of todos, below. </p>
  
 ***With more time, I would:*** <br/>
 <ul>
