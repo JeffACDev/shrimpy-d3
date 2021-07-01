@@ -5,7 +5,7 @@
  
 ***With more time, I would:*** <br/>
 <ul>
- <li>refine style, including adding subtle y grid dashed lines, etc.</li>
+ <li>refine style, including adding subtle y grid dashed lines, etc. (I could see the very subtle horizontal grid in the assignment doc)</li>
  <li>figure out how to have the data lines begin and end before and after the first and last data points</li>
  <li>setup promised data (I chose not to use d3.csv, because the provided data sample was basically, already Json. I could have formatted the JSON into csv and posted it to a remote location to grab as a promise.)</li>
  <li>make mouse move work for all lines</li>
