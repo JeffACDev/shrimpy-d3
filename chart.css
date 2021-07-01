@@ -5,7 +5,7 @@ body {
   width: 100%;
   font-family: Helvetica;
   background: #ffffff;
-  color: #000000;
+  color: #909497;
 }
 
 #root {
@@ -19,41 +19,40 @@ svg {
   
 text {
   font-family: Helvetica;
-  font-size: 14px;
-  fill: #000;
+  font-size: 11px;
+  fill: #909497;
 }
 
 text.title {
-  font-size: 22px;
-  fill: #000;
+  font-size: 11px;
+  fill: #909497;
 }
 
-.subtitle text {
-  font-size: 12px;
-  text-decoration: underline;
-  fill: #000;
-}
-
-path.line {
+path.line-0 {
   fill: none;
-  stroke: blue;
+  stroke: #DE6E51;
   stroke-width: 1px;
 }
-
-path.area {
-  fill: blue;
-  opacity: 0.2;
+path.line-1 {
+  fill: none;
+  stroke: #E8A339;
+  stroke-width: 1px;
+}
+path.line-2 {
+  fill: none;
+  stroke:#68B253;
+  stroke-width: 1px;
 }
 
 .axis path,
 .axis line {
   fill: none;
-  stroke: slategray;
+  stroke: none;
   shape-rendering: crispEdges;
 }
 
 line.x,
 line.y,
 circle.y {
-  stroke: Aqua;
+  stroke: #F1F1F8;
 }
