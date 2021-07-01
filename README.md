@@ -9,7 +9,7 @@
  <li>figure out how to have the data lines begin and end before and after the first and last data points</li>
  <li>setup promised data</li>
  <li>make mouse move work for all lines</li>
- <li>move the chart into react</li>
+ <li>move the chart into React (The example I demoed, durring the first interview, was a d3.js bar chart reusable component with a live API search in React)</li>
  <li>figure out what's going on with the y axis initial format, before the animation</li>
 </ul>
 
